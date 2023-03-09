@@ -14,7 +14,7 @@ textarea{}
 span,i,b,mark,strong{display: inline-block;}
 *{
     box-sizing: border-box;
-    color: #333;
+    color: #fff;
     font-size: 1rem;
     /* rem -> 문서 최상위 기본 문자 크기에 곱하기 N */
     /* em -> 부모 크기에 곱하기 N */
