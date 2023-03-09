@@ -1,0 +1,22 @@
+/* common.css */
+/* 태그들의 기본값을 초기화, 공통으로 사용할 스타일 작성 */
+html,body{margin: 0; font-size: 16px;}
+h1,h2,h3,h4,p,figure{margin: 0;}
+ul,li{list-style-type: none; margin: 0; padding: 0;}
+img{vertical-align: middle;}
+a{text-decoration: none;}
+table{border-collapse: collapse;}
+fieldset,legend{margin: 0; padding: 0;}
+input{}
+select{}
+textarea{}
+
+span,i,b,mark,strong{display: inline-block;}
+*{
+    box-sizing: border-box;
+    color: #333;
+    font-size: 1rem;
+    /* rem -> 문서 최상위 기본 문자 크기에 곱하기 N */
+    /* em -> 부모 크기에 곱하기 N */
+}
+
